@@ -1,0 +1,59 @@
+\documentclass[9pt]{beamer}
+
+%\usepackage[utf8x]{inputenc}
+
+\usetheme{Ampang}
+\usecolortheme{ampangcolor}
+%\usecolortheme{warna}
+
+%%% XeLaTeX engine for Ubuntu Font support
+\usepackage{xltxtra}
+\usepackage{graphicx}
+\setsansfont[
+BoldFont=Ubuntu-Bold.ttf,
+ItalicFont=Ubuntu-Italic.ttf,
+BoldItalicFont=Ubuntu-BoldItalic.ttf
+]
+{Ubuntu-Regular.ttf}
+\setmonofont{UbuntuMono-Regular.ttf}
+
+
+\title{ASSIGNMENT 10}
+\author{LEELA MADHURI}
+\date{JAN 5 , 2021}
+
+\begin{document}
+
+\maketitle
+
+\section{QUESTION}
+
+\begin{frame}{QUESTION AND FIGURE}
+The input frequency for the given counters 1 MHz,\\ the output frequency observes at Q4 is _______
+\includegraphics[width=\textwidth]{picture 1.png}
+
+
+\end{frame}
+
+\section{Results}
+
+\begin{frame}{TIMING DIAGRAM AND SOLUTION}
+\includegraphics[width=1\textwidth]{pic2.png}
+The time period doubles for very successive pass from one flip-flop to other.\\
+  Let the initial time period and frequency be T,F as the time period is getting doubles so
+  time period at $Q_1$ =2T\\\
+  Similarly at $Q_2$=4T ; at $Q_3$=8T ; at $Q_4$=16T 
+\end{frame}
+\begin{frame}{CONTINUATION OF SOLUTION}
+so the time period is getting increased in the form of $2^{n}T$ where n can take the value of required output.\\\\
+So,frequency at $Q_4$ can be F=$\frac{1}{T \  at \  Q_4 }$\\\
+F=$\frac{1}{16}$\\\ {(as initially F=1MHz so T at initial=1 sec)}\\\
+Also frequency can be written as F=$\frac{1}{2^4}=\frac{1}{16}$=62.5KHz
+
+
+  
+    
+\end{frame}
+
+
+\end{document}
