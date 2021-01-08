@@ -1,0 +1,27 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\title{solution assignment 10}
+\author{leela madhuri}
+\date{January 2021}
+
+\begin{document}
+
+\maketitle
+
+\section{question}
+The input frequency for the given counters 1 MHz, the output frequency observes at Q4 is \\\
+\includegraphics[width=1\textwidth]{counters.png}\\
+\section{explaination}
+The time period doubles for very successive pass from one flip-flop to other.\\
+  Let the initial time period and frequency be T,F as the time period is getting doubles so
+  time period at $Q_1$ =2T\\\
+  Similarly at $Q_2$=4T ; at $Q_3$=8T ; at $Q_4$=16T\\\
+so the time period is getting increased in the form of $2^{n}T$ where n can take the value of required output.\\\\
+So,frequency at $Q_4$ can be F=$\frac{1}{T \  at \  Q_4 }$\\\
+F=$\frac{1}{16}$\\\ {(as initially F=1MHz so T at initial=1 sec)}\\\
+Also frequency can be written as F=$\frac{1}{2^4}=\frac{1}{16}$=62.5KHz
+
+
+\end{document}
